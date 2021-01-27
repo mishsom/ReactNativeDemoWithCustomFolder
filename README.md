@@ -2,7 +2,7 @@
 
 to run:
 
-cd React-Native-Module
-yard install
-cd ..
-run outer android project
+# cd React-Native-Module
+# yarn install
+# cd ..
+# run outer android project
