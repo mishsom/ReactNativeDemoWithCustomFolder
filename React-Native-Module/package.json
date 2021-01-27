@@ -1,0 +1,15 @@
+{
+  "name": "react-native-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn react-native start --port=8800"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "16.13.1",
+    "react-native": "^0.63.4"
+  }
+}
