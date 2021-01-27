@@ -1,2 +1,3 @@
 include ':app'
 rootProject.name = "ReactNativeHybrid"
+apply from: "$rootDir/React-Native-Module/node_modules/react-native-unimodules/gradle.groovy"; includeUnimodulesProjects()

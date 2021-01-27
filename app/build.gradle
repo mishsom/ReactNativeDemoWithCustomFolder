@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
 }
+apply from: '../React-Native-Module/node_modules/react-native-unimodules/gradle.groovy'
 
 android {
     compileSdkVersion 29
@@ -38,4 +39,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation "com.facebook.react:react-native:+" // From node_modules
     implementation "org.webkit:android-jsc:+"
+    addUnimodulesDependencies([modulesPaths: ['../React-Native-Module/node_modules']])
 }
